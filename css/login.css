@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(221, 228, 245);
+}
+
+section {
+    padding: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    
+}
+
+.main {
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #ffffff;
+    width: 100%;
+    height: 600px;
+    border-radius: 8px;
+    gap: 30px;
+    flex-wrap: wrap;
+    border-color:#FF8C00;
+}
+
+form {
+    width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 25px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #FF8C00;
+    padding: 40px;
+    height: 500px;
+    box-shadow: 5px 5px 5px  #FF8C00;
+}
+
+.name,
+.email,
+.telefone {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 72%;
+    align-items: center;
+    color: aqua;
+}
+
+input {
+    width: 100%;
+    height: 40px;
+    box-shadow: 5px 5px 5px  #999797;
+    border: none;
+    border-radius: 5px;
+    background-color: #999797;
+    
+}
+
+.btn-concluir {
+    background-color:  #999797;
+    width: 72%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: none;
+    color: #999797;
+    font-size: 20px;
+    /* background-color: #292929; */
+}
+
+.btn-concluir:hover {
+    background-color:#999797;
+}
+
+input[type="text"],
+input[type="telefone"],
+input[type="email"],
+input::placeholder {
+    font-size: large;
+    padding: 8px;
+}
+
+@media(max-width: 650px) {
+    .box-content {
+        width: 400px;
+    }
+    form {
+        width: 300px;
+    }
+    input {
+        width: 200px;
+    }
+}
+
+@media(max-width: 400px) {
+    .box-content {
+        width: 400px;
+    }
+    form {
+        width: 220px;
+    }
+}
