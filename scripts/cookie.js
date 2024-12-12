@@ -14,3 +14,10 @@
 //     // Ocultar o aviso após aceitar
 //     document.querySelector(".aviso-cookies").style.display = "none";
 // });
+
+
+<script>
+    // Quando o usuario clica em "Aceitar", definimos o cookie
+    document.getElementById('aceitar-cookies').style.display = 'none'; //oculta  o banner
+    //
+</script>

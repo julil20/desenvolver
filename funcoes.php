@@ -76,154 +76,154 @@ function reduzirStr($str,$quantidade){
    * CriarLista
    * Popula as informações exibidas na tela principal
    */
-  function criarLista(){
-      $listaNoticia[0] = array(
-          "titulo" => "BOXE",
-          "descricao" => "O boxe é um esporte de combate que envolve o uso dos punhos para atacar e se defender. Tem origens antigas, remontando a civilizações como os sumérios e egípcios, mas sua forma moderna se desenvolveu no século XVIII na Inglaterra. O esporte se popularizou ao redor do mundo e é caracterizado pela sua combinação de técnica, força física, estratégia e condicionamento. Os competidores, chamados de pugilistas ou boxeadores, enfrentam-se em um ringue dividido em quadrados e delimitado por cordas. As lutas são divididas em rounds, com duração específica, e são supervisionadas por um árbitro. O objetivo é acertar o oponente com golpes limpos e válidos, enquanto se esquiva e se defende dos ataques recebidos. O boxe moderno é categorizado em diversas classes de peso, desde pesos mosca até pesos pesados, o que permite a participação de atletas de diferentes estaturas e pesos. Existem organizações internacionais que regulamentam o esporte e promovem campeonatos de prestígio, como a Associação Mundial de Boxe (WBA), o Conselho Mundial de Boxe (WBC) e a Federação Internacional de Boxe (IBF). Além da competição profissional, o boxe também é praticado como forma de exercício físico, defesa pessoal e disciplina mental. Muitos academias e clubes oferecem aulas para iniciantes, visando não apenas o condicionamento físico, mas também o desenvolvimento da autoconfiança e disciplina. Apesar de sua popularidade, o boxe também é um esporte controverso devido aos riscos associados às lesões cerebrais traumáticas decorrentes dos golpes na cabeça. Essa preocupação levou a diversas medidas de segurança e regulamentações para proteger a saúde dos atletas, como exames médicos rigorosos e regras específicas sobre golpes permitidos. Em resumo, o boxe é um esporte emocionante e desafiador que exige habilidade técnica, condicionamento físico e coragem dos seus praticantes. Ao longo dos anos, tem sido uma fonte de inspiração para muitos e continua a ser um dos esportes mais assistidos e praticados em todo o mundo.",
-          "imagem" => "./imagens/boxe.jpg",
-          "href" => ""
-      );
-      $listaNoticia[1] = array(
-          "titulo" => "BASQUETE",
-          "descricao" => "O basquete é um esporte de equipe dinâmico e
-                        emocionante, jogado entre duas equipes de cinco jogadores cada, que buscam
-                        marcar pontos arremessando uma bola em uma cesta localizada no final de uma quadra. Originário
-                        dos Estados Unidos no
-                        final do século XIX, o basquete rapidamente se tornou um dos esportes mais populares do mundo.
+//   function criarLista(){
+//       $listaNoticia[0] = array(
+//           "titulo" => "BOXE",
+//           "descricao" => "O boxe é um esporte de combate que envolve o uso dos punhos para atacar e se defender. Tem origens antigas, remontando a civilizações como os sumérios e egípcios, mas sua forma moderna se desenvolveu no século XVIII na Inglaterra. O esporte se popularizou ao redor do mundo e é caracterizado pela sua combinação de técnica, força física, estratégia e condicionamento. Os competidores, chamados de pugilistas ou boxeadores, enfrentam-se em um ringue dividido em quadrados e delimitado por cordas. As lutas são divididas em rounds, com duração específica, e são supervisionadas por um árbitro. O objetivo é acertar o oponente com golpes limpos e válidos, enquanto se esquiva e se defende dos ataques recebidos. O boxe moderno é categorizado em diversas classes de peso, desde pesos mosca até pesos pesados, o que permite a participação de atletas de diferentes estaturas e pesos. Existem organizações internacionais que regulamentam o esporte e promovem campeonatos de prestígio, como a Associação Mundial de Boxe (WBA), o Conselho Mundial de Boxe (WBC) e a Federação Internacional de Boxe (IBF). Além da competição profissional, o boxe também é praticado como forma de exercício físico, defesa pessoal e disciplina mental. Muitos academias e clubes oferecem aulas para iniciantes, visando não apenas o condicionamento físico, mas também o desenvolvimento da autoconfiança e disciplina. Apesar de sua popularidade, o boxe também é um esporte controverso devido aos riscos associados às lesões cerebrais traumáticas decorrentes dos golpes na cabeça. Essa preocupação levou a diversas medidas de segurança e regulamentações para proteger a saúde dos atletas, como exames médicos rigorosos e regras específicas sobre golpes permitidos. Em resumo, o boxe é um esporte emocionante e desafiador que exige habilidade técnica, condicionamento físico e coragem dos seus praticantes. Ao longo dos anos, tem sido uma fonte de inspiração para muitos e continua a ser um dos esportes mais assistidos e praticados em todo o mundo.",
+//           "imagem" => "./imagens/boxe.jpg",
+//           "href" => ""
+//       );
+//       $listaNoticia[1] = array(
+//           "titulo" => "BASQUETE",
+//           "descricao" => "O basquete é um esporte de equipe dinâmico e
+//                         emocionante, jogado entre duas equipes de cinco jogadores cada, que buscam
+//                         marcar pontos arremessando uma bola em uma cesta localizada no final de uma quadra. Originário
+//                         dos Estados Unidos no
+//                         final do século XIX, o basquete rapidamente se tornou um dos esportes mais populares do mundo.
 
-                        O objetivo do jogo é marcar pontos arremessando a bola através da cesta do adversário, enquanto
-                        se defende contra os
-                        ataques da equipe oponente. Os jogadores podem avançar pela quadra driblando a bola ou
-                        passando-a entre os companheiros
-                        de equipe. Estratégia, habilidade, agilidade e trabalho em equipe são fundamentais para o
-                        sucesso no basquete.
+//                         O objetivo do jogo é marcar pontos arremessando a bola através da cesta do adversário, enquanto
+//                         se defende contra os
+//                         ataques da equipe oponente. Os jogadores podem avançar pela quadra driblando a bola ou
+//                         passando-a entre os companheiros
+//                         de equipe. Estratégia, habilidade, agilidade e trabalho em equipe são fundamentais para o
+//                         sucesso no basquete.
 
-                        As partidas são divididas em quartos (ou períodos), com duração determinada, e a equipe com mais
-                        pontos ao final do jogo
-                        é declarada vencedora. Durante o jogo, os jogadores competem por rebotes, roubos de bola e
-                        bloqueios, enquanto tentam
-                        superar a defesa adversária para marcar pontos.",
-          "imagem" => "./imagens/basquete.jpg",
-          "href" => ""
-      );
-      $listaNoticia[2] = array(
-          "titulo" => "CORRIDA",
-          "descricao" => "A corrida é uma atividade física de movimento
-                        rápido realizada pelos seres humanos há milhares de anos. No contexto
-                        moderno, a corrida é praticada tanto como uma forma de exercício físico quanto como um esporte
-                        competitivo. Os
-                        corredores podem escolher entre uma variedade de distâncias, desde sprints curtos até maratonas
-                        e ultramaratonas,
-                        dependendo de seus objetivos e níveis de condicionamento físico.
+//                         As partidas são divididas em quartos (ou períodos), com duração determinada, e a equipe com mais
+//                         pontos ao final do jogo
+//                         é declarada vencedora. Durante o jogo, os jogadores competem por rebotes, roubos de bola e
+//                         bloqueios, enquanto tentam
+//                         superar a defesa adversária para marcar pontos.",
+//           "imagem" => "./imagens/basquete.jpg",
+//           "href" => ""
+//       );
+//       $listaNoticia[2] = array(
+//           "titulo" => "CORRIDA",
+//           "descricao" => "A corrida é uma atividade física de movimento
+//                         rápido realizada pelos seres humanos há milhares de anos. No contexto
+//                         moderno, a corrida é praticada tanto como uma forma de exercício físico quanto como um esporte
+//                         competitivo. Os
+//                         corredores podem escolher entre uma variedade de distâncias, desde sprints curtos até maratonas
+//                         e ultramaratonas,
+//                         dependendo de seus objetivos e níveis de condicionamento físico.
 
-                        A corrida oferece uma série de benefícios para a saúde, incluindo o fortalecimento do sistema
-                        cardiovascular, a queima
-                        de calorias, o aumento da resistência e a melhoria da saúde mental. Além disso, é uma atividade
-                        acessível, que requer
-                        pouco equipamento além de um bom par de tênis e roupas confortáveis.",
-          "imagem" => "./imagens/corrida.jpg",
-          "href" => ""
-      );
-      $listaNoticia[3] = array(
-          "titulo" => "CROSSFIT",
-          "descricao" => "O CrossFit é uma modalidade de treinamento
-                        físico que se destaca pela sua abordagem variada e intensa, visando o
-                        desenvolvimento completo do condicionamento físico. Criado na década de 2000 pelo treinador Greg
-                        Glassman, o CrossFit
-                        combina elementos de levantamento de peso olímpico, ginástica e treinamento de alta intensidade
-                        em um programa de
-                        exercícios desafiador e dinâmico.
+//                         A corrida oferece uma série de benefícios para a saúde, incluindo o fortalecimento do sistema
+//                         cardiovascular, a queima
+//                         de calorias, o aumento da resistência e a melhoria da saúde mental. Além disso, é uma atividade
+//                         acessível, que requer
+//                         pouco equipamento além de um bom par de tênis e roupas confortáveis.",
+//           "imagem" => "./imagens/corrida.jpg",
+//           "href" => ""
+//       );
+//       $listaNoticia[3] = array(
+//           "titulo" => "CROSSFIT",
+//           "descricao" => "O CrossFit é uma modalidade de treinamento
+//                         físico que se destaca pela sua abordagem variada e intensa, visando o
+//                         desenvolvimento completo do condicionamento físico. Criado na década de 2000 pelo treinador Greg
+//                         Glassman, o CrossFit
+//                         combina elementos de levantamento de peso olímpico, ginástica e treinamento de alta intensidade
+//                         em um programa de
+//                         exercícios desafiador e dinâmico.
 
-                        Os treinos de CrossFit são conhecidos por sua diversidade, envolvendo uma ampla gama de
-                        exercícios funcionais realizados
-                        em alta intensidade e com períodos de descanso limitados. Os participantes podem esperar
-                        realizar exercícios como
-                        levantamento de peso, flexões, saltos, corridas, remadas, treinos com cordas e muitos outros
-                        movimentos variados.
+//                         Os treinos de CrossFit são conhecidos por sua diversidade, envolvendo uma ampla gama de
+//                         exercícios funcionais realizados
+//                         em alta intensidade e com períodos de descanso limitados. Os participantes podem esperar
+//                         realizar exercícios como
+//                         levantamento de peso, flexões, saltos, corridas, remadas, treinos com cordas e muitos outros
+//                         movimentos variados.
 
-                        Uma das características distintivas do CrossFit é a ênfase na competição saudável e na superação
-                        pessoal. Os treinos são
-                        frequentemente cronometrados ou realizados por número de repetições, incentivando os
-                        participantes a desafiarem
-                        constantemente seus limites e a progredirem em sua forma física.",
-          "imagem" => "./imagens/crossfit.jpg",
-          "href" => "",
-      );
-     $listaNoticia[10] = array(
-           "titulo" => "ESPORTES NA NEVE",
-           "descricao" => "Os esportes na neve incluem uma variedade de
-                        atividades praticadas em ambientes gelados, como montanhas cobertas de
-                        neve. Estas atividades são populares em regiões com invernos rigorosos e oferecem uma mistura
-                        única de desafio físico,
-                        beleza natural e diversão ao ar livre.
+//                         Uma das características distintivas do CrossFit é a ênfase na competição saudável e na superação
+//                         pessoal. Os treinos são
+//                         frequentemente cronometrados ou realizados por número de repetições, incentivando os
+//                         participantes a desafiarem
+//                         constantemente seus limites e a progredirem em sua forma física.",
+//           "imagem" => "./imagens/crossfit.jpg",
+//           "href" => "",
+//       );
+//      $listaNoticia[10] = array(
+//            "titulo" => "ESPORTES NA NEVE",
+//            "descricao" => "Os esportes na neve incluem uma variedade de
+//                         atividades praticadas em ambientes gelados, como montanhas cobertas de
+//                         neve. Estas atividades são populares em regiões com invernos rigorosos e oferecem uma mistura
+//                         única de desafio físico,
+//                         beleza natural e diversão ao ar livre.
   
-                        Alguns dos esportes mais populares praticados na neve incluem:
-                        Esqui alpino: Descer encostas cobertas de neve em esquis é uma prática que combina velocidade,
-                        habilidade e controle. Os
-                        praticantes podem se aventurar em pistas variadas, desde iniciantes até avançadas, desfrutando
-                        da adrenalina e da
-                        sensação de liberdade que o esqui proporciona.",
-           "imagem" => "./imagens/esportesNaNeve.jpg",
-           "href" => "",
-         );
-      $listaNoticia[4] = array(
-        "titulo" => "NATACAO",
-        "descricao" => "A natação é uma atividade física baseada na capacidade humana de se locomover na água (nadar). Como esporte, a natação aparece em competições desde meados do século XIX e esteve presente na primeira Olimpíada da era moderna em 1896,
-                        experimentando uma significativa evolução ao longo do tempo. A natação é um dos esportes mais praticados em todo o mundo, não apenas melhorando o condicionamento físico, mas também oferecendo diversos benefícios para a saúde.",
-        "imagem" => "./imagens/natacao.jpg",
-        "href" => "",
-      );
-      $listaNoticia[5] = array(
-        "titulo" => "ROUPAS",
-        "descricao" => "Desde o Renascimento, com o nascimento de uma burguesia mercantil (essa, composta apenas por homens), as roupas foram encaixadas dentro de etiquetas sociais, de forma a impor uma forte auto afirmação das classes dominantes. No século
-                        XIX há uma transição do mundo medieval feudal para o mundo capitalista e burguês, o mundo moderno. Em contrapartida ao Barroco e Rococó, que eram considerados movimentos com excessos de adornos, peso, decorações etc, surgem novos
-                        movimentos e junto a eles, novas tendências indumentárias.[2] Homem do início do séc. XX de terno Por volta de 1850, um estilo de vestimenta mais sóbrio, em relação àqueles presentes no Rococó, Romantismo, Neoclassicismo etc, começa
-                        a se popularizar dentre o vestuário masculino. Enquanto a fantasia e a decoração eram preservadas para as mulheres, de classe alta, que não trabalhavam, a hegemonia do terno e gravata, sempre com cores neutras, chegou ao guarda-roupa
-                        dos homens. Assim, começa-se a notar as influências da Revolução Industrial dentro da indumentária. Não só isso, mas a do trabalho também. Enquanto o homem se vestia de forma neutra e prática, a mulher demonstrava seu status social
-                        em forma de vestimenta.",
-        "imagem" => "./imagens/roupas.jpg",
-        "href" => "",
-      );
-      $listaNoticia[6] = array(
-        "titulo" => "SURF",
-        "descricao" => "O surf é um esporte aquático praticado em
-                        pranchas de surf, onde os surfistas deslizam sobre as ondas do mar,
-                        aproveitando a energia e a força da água para realizar manobras emocionantes. Originário das
-                        antigas culturas
-                        polinésias, o surf moderno evoluiu ao longo dos séculos para se tornar uma atividade de lazer,
-                        competição e estilo de
-                        vida em todo o mundo.
+//                         Alguns dos esportes mais populares praticados na neve incluem:
+//                         Esqui alpino: Descer encostas cobertas de neve em esquis é uma prática que combina velocidade,
+//                         habilidade e controle. Os
+//                         praticantes podem se aventurar em pistas variadas, desde iniciantes até avançadas, desfrutando
+//                         da adrenalina e da
+//                         sensação de liberdade que o esqui proporciona.",
+//            "imagem" => "./imagens/esportesNaNeve.jpg",
+//            "href" => "",
+//          );
+//       $listaNoticia[4] = array(
+//         "titulo" => "NATACAO",
+//         "descricao" => "A natação é uma atividade física baseada na capacidade humana de se locomover na água (nadar). Como esporte, a natação aparece em competições desde meados do século XIX e esteve presente na primeira Olimpíada da era moderna em 1896,
+//                         experimentando uma significativa evolução ao longo do tempo. A natação é um dos esportes mais praticados em todo o mundo, não apenas melhorando o condicionamento físico, mas também oferecendo diversos benefícios para a saúde.",
+//         "imagem" => "./imagens/natacao.jpg",
+//         "href" => "",
+//       );
+//       $listaNoticia[5] = array(
+//         "titulo" => "ROUPAS",
+//         "descricao" => "Desde o Renascimento, com o nascimento de uma burguesia mercantil (essa, composta apenas por homens), as roupas foram encaixadas dentro de etiquetas sociais, de forma a impor uma forte auto afirmação das classes dominantes. No século
+//                         XIX há uma transição do mundo medieval feudal para o mundo capitalista e burguês, o mundo moderno. Em contrapartida ao Barroco e Rococó, que eram considerados movimentos com excessos de adornos, peso, decorações etc, surgem novos
+//                         movimentos e junto a eles, novas tendências indumentárias.[2] Homem do início do séc. XX de terno Por volta de 1850, um estilo de vestimenta mais sóbrio, em relação àqueles presentes no Rococó, Romantismo, Neoclassicismo etc, começa
+//                         a se popularizar dentre o vestuário masculino. Enquanto a fantasia e a decoração eram preservadas para as mulheres, de classe alta, que não trabalhavam, a hegemonia do terno e gravata, sempre com cores neutras, chegou ao guarda-roupa
+//                         dos homens. Assim, começa-se a notar as influências da Revolução Industrial dentro da indumentária. Não só isso, mas a do trabalho também. Enquanto o homem se vestia de forma neutra e prática, a mulher demonstrava seu status social
+//                         em forma de vestimenta.",
+//         "imagem" => "./imagens/roupas.jpg",
+//         "href" => "",
+//       );
+//       $listaNoticia[6] = array(
+//         "titulo" => "SURF",
+//         "descricao" => "O surf é um esporte aquático praticado em
+//                         pranchas de surf, onde os surfistas deslizam sobre as ondas do mar,
+//                         aproveitando a energia e a força da água para realizar manobras emocionantes. Originário das
+//                         antigas culturas
+//                         polinésias, o surf moderno evoluiu ao longo dos séculos para se tornar uma atividade de lazer,
+//                         competição e estilo de
+//                         vida em todo o mundo.
 
-                        Os surfistas enfrentam desafios únicos ao tentar se equilibrar e pegar as ondas, requerendo
-                        habilidades de equilíbrio,
-                        coordenação e força física. Eles buscam ondas de diferentes tamanhos e formas, dependendo de seu
-                        nível de habilidade e
-                        preferências pessoais.",
-        "imagem" => "./imagens/surf.jpg",
-        "href" => "",
-      );
-      $listaNoticia[7] = array(
-        "titulo" => "SKATE",
-        "descricao" => "O skate é um esporte radical realizado sobre uma prancha com rodas e consiste na execução de manobras no chão, pistas e em obstáculos. A prática surgiu nos Estados Unidos e atualmente é um esporte olímpico desde os jogos de Tóquio (2021). Entre as modalidades do skate estão: street, park, vertical, downhill.",
-        "imagem" => "./imagens/skate.jpg",
-        "href" => "",
-      );
-      $listaNoticia[8] = array(
-        "titulo" => "TENIS",
-        "descricao" => "O tênis é um esporte praticado
-                        individualmente ou em duplas, onde os jogadores utilizam raquetes para rebater uma bola
-                        sobre uma quadra dividida ao meio por uma rede. Com raízes que remontam ao século XII na França,
-                        o tênis moderno evoluiu
-                        ao longo dos séculos para se tornar uma das atividades esportivas mais populares em todo o
-                        mundo.
-                        O objetivo do jogo é fazer com que a bola passe sobre a rede e caia dentro das linhas da quadra
-                        do adversário, ao mesmo
-                        tempo em que se evita que a bola rebatida pelo oponente alcance o chão dentro das próprias
-                        linhas. Isso requer uma
-                        combinação de habilidade, técnica, agilidade e estratégia.",
-        "imagem" => "./imagens/tenis.jpg",
-        "href" => "",
-      );
+//                         Os surfistas enfrentam desafios únicos ao tentar se equilibrar e pegar as ondas, requerendo
+//                         habilidades de equilíbrio,
+//                         coordenação e força física. Eles buscam ondas de diferentes tamanhos e formas, dependendo de seu
+//                         nível de habilidade e
+//                         preferências pessoais.",
+//         "imagem" => "./imagens/surf.jpg",
+//         "href" => "",
+//       );
+//       $listaNoticia[7] = array(
+//         "titulo" => "SKATE",
+//         "descricao" => "O skate é um esporte radical realizado sobre uma prancha com rodas e consiste na execução de manobras no chão, pistas e em obstáculos. A prática surgiu nos Estados Unidos e atualmente é um esporte olímpico desde os jogos de Tóquio (2021). Entre as modalidades do skate estão: street, park, vertical, downhill.",
+//         "imagem" => "./imagens/skate.jpg",
+//         "href" => "",
+//       );
+//       $listaNoticia[8] = array(
+//         "titulo" => "TENIS",
+//         "descricao" => "O tênis é um esporte praticado
+//                         individualmente ou em duplas, onde os jogadores utilizam raquetes para rebater uma bola
+//                         sobre uma quadra dividida ao meio por uma rede. Com raízes que remontam ao século XII na França,
+//                         o tênis moderno evoluiu
+//                         ao longo dos séculos para se tornar uma das atividades esportivas mais populares em todo o
+//                         mundo.
+//                         O objetivo do jogo é fazer com que a bola passe sobre a rede e caia dentro das linhas da quadra
+//                         do adversário, ao mesmo
+//                         tempo em que se evita que a bola rebatida pelo oponente alcance o chão dentro das próprias
+//                         linhas. Isso requer uma
+//                         combinação de habilidade, técnica, agilidade e estratégia.",
+//         "imagem" => "./imagens/tenis.jpg",
+//         "href" => "",
+//       );
     //  $listaNoticia[9] = array(
     //     "titulo" => "TRILHA",
     //     "descricao" => "A trilha, também conhecida como hiking ou
@@ -249,8 +249,8 @@ function reduzirStr($str,$quantidade){
     //     "imagem" => "./imagens/bicicletas.jpg",
     //   );
         
-      return $listaNoticia;
-  }
+//       return $listaNoticia;
+//   }
 
   function calcularImc($peso, $altura){
     $resposta = 0;
@@ -288,11 +288,11 @@ function reduzirStr($str,$quantidade){
         return ($result)?true:false;
     }
 
-  function cadastrarRegistro($nome,$email,$telefone,$login,$senha,$aceitacaoCookie)
+  function cadastrarRegistro($nome,$email,$telefone,$login,$senha,$aceitou_cookies)
     {
-        if(!$nome || !$email || !$telefone || !$login || !$senha || $aceitarCookie){return;}
-        $sql = "INSERT INTO `registro_tb` (`nome`,`email`,`telefone`,`login`,`senha`, `aceitacaoCookie`)
-        VALUES(:nome,:email,:telefone,:login,:senha,:aceitacaoCookie)";
+        if(!$nome || !$email || !$telefone || !$login || !$senha || $aceitou_cookies){return;}
+        $sql = "INSERT INTO `registro_tb` (`nome`,`email`,`telefone`,`login`,`senha`, `aceitou_cookies`)
+        VALUES(:nome,:email,:telefone,:login,:senha,:aceitou_cookies)";
 
         $pdo = Database::conexao();
         $stmt = $pdo->prepare($sql);
@@ -301,9 +301,11 @@ function reduzirStr($str,$quantidade){
         $stmt->bindParam(':telefone', $telefone);
         $stmt->bindParam(':login', $login);
         $stmt->bindParam(':senha', $senha);
-        $stmt->bindParam(':aceitacaoCookie', $aceitacaoCookie);
+        $stmt->bindParam(':aceitou_cookies', $aceitou_cookies);
         $result = $stmt->execute();
         return ($result)?true:false;
+
+        echo "cookies aceitos com sucesso!";
     }
 
     function cadastrarContato($nome,$sobrenome,$email,$telefone,$mensagem)

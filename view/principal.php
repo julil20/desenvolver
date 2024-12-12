@@ -61,7 +61,7 @@
             </h4>
           </aside>
           <!-- <div class="LGPD-notice"> -->
-            <div class="LGPD-center">
+            <!-- <div class="LGPD-center">
               <div id="LGPD-desktop" class="LGPD-mensagem">
                 <p class="cor"> Nós e os terceiros selecionados usamos cookies ou tecnologias similares para finalidades técnicas e,
                            com seu consentimento, para outras finalidades conforme especificado na política de cookie.
@@ -71,7 +71,18 @@
                             <a class= "A" href=""> <button type="submit" class="btnEnviar">Aceitar</button> </a> 
                             <a href="#backToTop" class="A"><button type="submit" class="btnEnviar">Recusar</button> </a>
                 </div>
-            </div>
+            </div> -->
+
+            <form method="POST">
+            <label form="aceitou_cookies">
+              <input type="checkbox" name="aceitou_cookies" required>
+              Aceito os termos a condições e o uso de cookies
+            </label>
+
+            <button type="submit">Registrar</button>
+
+
+
     </section>
 
     <footer class="footer">

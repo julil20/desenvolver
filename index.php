@@ -43,8 +43,20 @@ $imagem = ($_SERVER["REQUEST_METHOD"] == "POST"
 $nomeCategoria = ($_SERVER["REQUEST_METHOD"] == "POST"
 && !empty($_POST['nomeCategoria'])) ? $_POST['nomeCategoria'] : null;
 
-// $aceitacaoCookie = ($_SERVER["REQUEST_METHOD"] == "POST"
-// && !empty($_POST['$aceitacaoCookie'])) ? $_POST['$aceitacaoCookie'] : null;
+$aceitou_cookies = ($_SERVER["REQUEST_METHOD"] == "POST"
+&& !empty($_POST['aceitou_cookies'])) ? $_POST['aceitou_cookies'] : null;
+
+// $aceitou_cookies = isset(_$COOKIE['aceitou-cookies']) ? $_COOKIE['aceitou_cookies'] : null; // verifica se o usuario aceitou os cookies
+
+if ($aceitou_cookies){
+  // o usuario ja aceitou os cookies
+  echo "Cookies aceitos!"
+  break;
+}else{
+  // Se nao, mostre as notificação
+  echo '<div <p>Este site utiliza cookies. Ao continuar </p>
+       <button id="aceitar-cookies">Aceitar</button> </div>'
+}
 
  $resposta = 0;
  $resposta = calcularImc($peso, $altura);
@@ -107,6 +119,8 @@ if($paginaUrl === "principal"){
   }
   @$noticiasPorCategoria = listarNoticiasPorCategoria($noticia['categoria_id']);{
   }
+
+
 
 include_once("view/header.php");
   if($paginaUrl === "principal"){
